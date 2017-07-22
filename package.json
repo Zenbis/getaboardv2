@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://mitchgavan.com/react-multi-choice-quiz/",
   "devDependencies": {
+    "lodash": "^4.17.4",
     "react-scripts": "0.2.1"
   },
   "dependencies": {
