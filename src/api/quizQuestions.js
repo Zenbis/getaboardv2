@@ -1,7 +1,7 @@
 var quizQuestions = [
   {
     /* 1 Question */
-    question: "What do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -15,7 +15,7 @@ var quizQuestions = [
   },
   {
     /* 2 Question */
-    question: "What do you prefer?",
+    question: "Which do you prefer, it someone says... ",
     answers: [
           {
               type: "receivingGifts",
@@ -29,7 +29,7 @@ var quizQuestions = [
   },
   {
     /* 3 Question */
-    question: "What do you prefer?",
+    question: "Which do you prefer?",
     answers: [
           {
               type: "physicalTouch",
