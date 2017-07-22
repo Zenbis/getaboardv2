@@ -1,17 +1,20 @@
 {
-  "name": "getaboardv1",
-  "version": "0.1.0",
+  "name": "react-quiz",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "http://mitchgavan.com/react-multi-choice-quiz/",
+  "devDependencies": {
+    "react-scripts": "0.2.1"
+  },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-bootstrap": "^0.31.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react": "^15.3.0",
+    "react-addons-css-transition-group": "^15.3.0",
+    "react-addons-update": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }
