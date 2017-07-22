@@ -15,7 +15,7 @@ var quizQuestions = [
   },
   {
     /* 2 Question */
-    question: "Which do you prefer, it someone says... ",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "receivingGifts",
@@ -29,7 +29,7 @@ var quizQuestions = [
   },
   {
     /* 3 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "physicalTouch",
@@ -43,7 +43,7 @@ var quizQuestions = [
   },
   {
     /* 4 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "qualityTime",
@@ -57,7 +57,7 @@ var quizQuestions = [
   },
   {
     /* 5 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "actsOfService",
@@ -71,7 +71,7 @@ var quizQuestions = [
   },
   {
     /* 6 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -85,7 +85,7 @@ var quizQuestions = [
   },
   {
     /* 7 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "receivingGifts",
@@ -99,7 +99,7 @@ var quizQuestions = [
   },
   {
     /* 8 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "physicalTouch",
@@ -113,7 +113,7 @@ var quizQuestions = [
   },
   {
     /* 9 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "qualityTime",
@@ -128,7 +128,7 @@ var quizQuestions = [
   },
   {
     /* 10 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "actsOfService",
@@ -142,7 +142,7 @@ var quizQuestions = [
   },
   {
     /* 11 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -156,7 +156,7 @@ var quizQuestions = [
   },
   {
     /* 12 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "receivingGifts",
@@ -170,7 +170,7 @@ var quizQuestions = [
   },
   {
     /* 13 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "physicalTouch",
@@ -184,7 +184,7 @@ var quizQuestions = [
   },
   {
     /* 14 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "qualityTime",
@@ -199,7 +199,7 @@ var quizQuestions = [
   },
   {
     /* 15 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "actsOfService",
@@ -214,7 +214,7 @@ var quizQuestions = [
   },
   {
     /* 16 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -228,7 +228,7 @@ var quizQuestions = [
   },
   {
     /* 17 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "receivingGifts",
@@ -242,7 +242,7 @@ var quizQuestions = [
   },
   {
     /* 18 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "qualityTime",
@@ -256,7 +256,7 @@ var quizQuestions = [
   },
   {
     /* 19 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "qualityTime",
@@ -270,7 +270,7 @@ var quizQuestions = [
   },
   {
     /* 20 Question */
-    question: "Which do you prefer?",
+    question: "Which do you prefer, if someone says...",
     answers: [
           {
               type: "actsOfService",
