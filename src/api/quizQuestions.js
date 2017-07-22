@@ -1,87 +1,302 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
-      answers: [
+      /* 1 Question */
+    question: "What do you prefer?",  
+    answers: [
           {
-              type: "Microsoft",
-              content: "Halo"
+              type: "wordsOfAffirmation",
+              content: "Give me a hug!"
           },
           {
-              type: "Nintendo",
-              content: "Pokemon"
+              type: "qualityTime",
+              content: "You are terrific!"
           },
-          {
-              type: "Sony",
-              content: "Uncharted"
-          }
+    
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
-      answers: [
+      /* 2 Question */
+    question: "What do you prefer?",  
+    answers: [
           {
-              type: "Microsoft",
-              content: "X-Box"
+              type: "receivingGifts",
+              content: "I’ve got a special birthday present for you!"
           },
           {
-              type: "Nintendo",
-              content: "Nintendo 64"
+              type: "actsOfService",
+              content: "I’ll help you with your project."
           },
-          {
-              type: "Sony",
-              content: "Playstation 1"
-          }
+        
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
-      answers: [
+      /* 3 Question */
+    question: "What do you prefer?",  
+    answers: [
           {
-              type: "Microsoft",
-              content: "Forza"
+              type: "physicalTouch",
+              content: "Let’s go to a movie."
           },
           {
-              type: "Nintendo",
-              content: "Mario Kart"
+              type: "wordsOfAffirmation",
+              content: "Give me a high-fi ve!"
           },
-          {
-              type: "Sony",
-              content: "Gran Turismo"
-          }
+        
       ]
   },
   {
-      question: "Which of these games do you think is best?",
-      answers: [
+      /* 4 Question */
+    question: "What do you prefer?",  
+    answers: [
           {
-              type: "Microsoft",
-              content: "BioShock"
+              type: "qualityTime",
+              content: "You are so smart!"
           },
           {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              type: "receivingGifts",
+              content: "Have you made your Christmas list?"
           },
-          {
-              type: "Sony",
-              content: "Final Fantasy VII"
-          }
+
       ]
   },
   {
-      question: "What console would you prefer to own?",
-      answers: [
+      /* 5 Question */
+    question: "What do you prefer?",  
+    answers: [
           {
-              type: "Microsoft",
-              content: "X-Box One"
+              type: "actsOfService",
+              content: "Would you help me cook dinner?"
           },
           {
-              type: "Nintendo",
-              content: "Wii U"
+              type: "physicalTouch",
+              content: "I like going to fun places with you!"
+          },
+          
+      ]
+  },
+  {
+      /* 6 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "wordsOfAffirmation",
+              content: "Give me a kiss!"
           },
           {
-              type: "Sony",
-              content: "Playstation 4"
-          }
+              type: "qualityTime",
+              content: "You are #1!"
+          },
+          
+      ]
+  },
+  {
+      /* 7 Question */
+    question: "What do you prefer?",      
+    answers: [
+          {
+              type: "receivingGifts",
+              content: "I’ve got a surprise for you."
+          },
+          {
+              type: "actsOfService",
+              content: "We can make something really cool."
+          },
+          
+      ]
+  },
+  {
+      /* 8 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "physicalTouch",
+              content: "We can make something really cool."
+          },
+          {
+              type: "wordsOfAffirmation",
+              content: "Tag, you’re it!"
+          },
+          
+      ]
+  },
+  {
+      /* 9 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "qualityTime",
+              content: "Tag, you’re it!"
+          },
+          {
+              type: "receivingGifts",
+              content: "You’ve earned a special surprise!"
+          },
+          
+      ]
+  },
+  {
+      /* 10 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "actsOfService",
+              content: "You can invite your friends."
+          },
+          {
+              type: "physicalTouch",
+              content: "Let’s go to your favorite restaurant."
+          },
+          
+      ]
+  },
+  {
+      /* 11 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "wordsOfAffirmation",
+              content: "I’m going to give you a big hug!"
+          },
+          {
+              type: "qualityTime",
+              content: "You are an awesome kid!"
+          },
+          
+      ]
+  },
+  {
+      /* 12 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "receivingGifts",
+              content: "I made your favorite food."
+          },
+          {
+              type: "actsOfService",
+              content: "I checked your homework, and it looks great!"
+          },
+          
+      ]
+  },
+  {
+      /* 13 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "physicalTouch",
+              content: "You are fun to hang out with!"
+          },
+          {
+              type: "wordsOfAffirmation",
+              content: "I’ll race you!"
+          },
+          
+      ]
+  },
+  {
+    /* 14 Question */
+    question: "What do you prefer?",
+    answers: [
+          {
+              type: "qualityTime",
+              content: "Wow! You did it!"
+          },
+          {
+              type: "receivingGifts",
+              content: "Check under your bed for a special present!"
+          },
+          
+      ]
+  },
+  {
+      /* 15 Question */
+    question: "What do you prefer?",
+    answers: [
+          {
+              type: "actsOfService",
+              content: "I cleaned up your room for you."
+          },
+          {
+              type: "physicalTouch",
+              content: "Let’s play a game together"
+          },
+          
+      ]
+  },
+  {
+      /* 16 Question */
+    question: "What do you prefer?",
+    answers: [
+          {
+              type: "wordsOfAffirmation",
+              content: "Would you like for me to scratch your back?"
+          },
+          {
+              type: "qualityTime",
+              content: "You can do it! Don’t give up!"
+          },
+          
+      ]
+  },
+  {
+      /* 17 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "receivingGifts",
+              content: "What would you like for your birthday?"
+          },
+          {
+              type: "actsOfService",
+              content: "We can pick up your friend on the way to the movie. "
+          },
+          
+      ]
+  },
+  {
+      /* 18 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "E",
+              content: "I always like doing stuff with you. "
+          },
+          {
+              type: "wordsOfAffirmation",
+              content: "You are so huggable!"
+          },
+          
+      ]
+  },
+  {
+      /* 19 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "qualityTime",
+              content: "How did you know how to do that? You are brilliant!"
+          },
+          {
+              type: "receivingGifts",
+              content: "I can’t wait to give you your present!"
+          },
+          
+      ]
+  },
+  {
+      /* 20 Question */
+    question: "What do you prefer?",  
+    answers: [
+          {
+              type: "actsOfService",
+              content: "Don’t worry! I’ll pick you up on time!"
+          },
+          {
+              type: "physicalTouch",
+              content: "Let’s spend the day doing whatever you want to do!"
+          },
+          
       ]
   }
 ];
