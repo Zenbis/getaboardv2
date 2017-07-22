@@ -18,9 +18,11 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        Nintendo: 0,
-        Microsoft: 0,
-        Sony: 0
+        wordsOfAffirmation: 0,
+        qualityTime: 0,
+        receivingGifts: 0,
+        actsOfService: 0,
+        physicalTouch: 0,
       },
       result: ''
     };
