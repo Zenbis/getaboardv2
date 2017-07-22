@@ -1,7 +1,7 @@
 var quizQuestions = [
   {
-      /* 1 Question */
-    question: "What do you prefer?",  
+    /* 1 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -10,13 +10,12 @@ var quizQuestions = [
           {
               type: "qualityTime",
               content: "You are terrific!"
-          },
-    
+          }
       ]
   },
   {
-      /* 2 Question */
-    question: "What do you prefer?",  
+    /* 2 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "receivingGifts",
@@ -25,12 +24,12 @@ var quizQuestions = [
           {
               type: "actsOfService",
               content: "I’ll help you with your project."
-          },
+          }
       ]
   },
   {
-      /* 3 Question */
-    question: "What do you prefer?",  
+    /* 3 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "physicalTouch",
@@ -39,13 +38,12 @@ var quizQuestions = [
           {
               type: "wordsOfAffirmation",
               content: "Give me a high-fi ve!"
-          },
-        
+          }
       ]
   },
   {
-      /* 4 Question */
-    question: "What do you prefer?",  
+    /* 4 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "qualityTime",
@@ -54,13 +52,12 @@ var quizQuestions = [
           {
               type: "receivingGifts",
               content: "Have you made your Christmas list?"
-          },
-
+          }
       ]
   },
   {
-      /* 5 Question */
-    question: "What do you prefer?",  
+    /* 5 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "actsOfService",
@@ -69,13 +66,12 @@ var quizQuestions = [
           {
               type: "physicalTouch",
               content: "I like going to fun places with you!"
-          },
-          
+          }
       ]
   },
   {
-      /* 6 Question */
-    question: "What do you prefer?",  
+    /* 6 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -84,13 +80,12 @@ var quizQuestions = [
           {
               type: "qualityTime",
               content: "You are #1!"
-          },
-          
+          }
       ]
   },
   {
-      /* 7 Question */
-    question: "What do you prefer?",      
+    /* 7 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "receivingGifts",
@@ -99,13 +94,12 @@ var quizQuestions = [
           {
               type: "actsOfService",
               content: "We can make something really cool."
-          },
-          
+          }
       ]
   },
   {
-      /* 8 Question */
-    question: "What do you prefer?",  
+    /* 8 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "physicalTouch",
@@ -114,13 +108,12 @@ var quizQuestions = [
           {
               type: "wordsOfAffirmation",
               content: "Tag, you’re it!"
-          },
-          
+          }
       ]
   },
   {
-      /* 9 Question */
-    question: "What do you prefer?",  
+    /* 9 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "qualityTime",
@@ -129,13 +122,13 @@ var quizQuestions = [
           {
               type: "receivingGifts",
               content: "You’ve earned a special surprise!"
-          },
-          
+          }
+
       ]
   },
   {
-      /* 10 Question */
-    question: "What do you prefer?",  
+    /* 10 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "actsOfService",
@@ -144,13 +137,12 @@ var quizQuestions = [
           {
               type: "physicalTouch",
               content: "Let’s go to your favorite restaurant."
-          },
-          
+          }
       ]
   },
   {
-      /* 11 Question */
-    question: "What do you prefer?",  
+    /* 11 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "wordsOfAffirmation",
@@ -159,13 +151,12 @@ var quizQuestions = [
           {
               type: "qualityTime",
               content: "You are an awesome kid!"
-          },
-          
+          }
       ]
   },
   {
-      /* 12 Question */
-    question: "What do you prefer?",  
+    /* 12 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "receivingGifts",
@@ -174,13 +165,12 @@ var quizQuestions = [
           {
               type: "actsOfService",
               content: "I checked your homework, and it looks great!"
-          },
-          
+          }
       ]
   },
   {
-      /* 13 Question */
-    question: "What do you prefer?",  
+    /* 13 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "physicalTouch",
@@ -189,8 +179,7 @@ var quizQuestions = [
           {
               type: "wordsOfAffirmation",
               content: "I’ll race you!"
-          },
-          
+          }
       ]
   },
   {
@@ -204,12 +193,12 @@ var quizQuestions = [
           {
               type: "receivingGifts",
               content: "Check under your bed for a special present!"
-          },
-          
+          }
+
       ]
   },
   {
-      /* 15 Question */
+    /* 15 Question */
     question: "What do you prefer?",
     answers: [
           {
@@ -219,12 +208,12 @@ var quizQuestions = [
           {
               type: "physicalTouch",
               content: "Let’s play a game together"
-          },
-          
+          }
+
       ]
   },
   {
-      /* 16 Question */
+    /* 16 Question */
     question: "What do you prefer?",
     answers: [
           {
@@ -234,13 +223,12 @@ var quizQuestions = [
           {
               type: "qualityTime",
               content: "You can do it! Don’t give up!"
-          },
-          
+          }
       ]
   },
   {
-      /* 17 Question */
-    question: "What do you prefer?",  
+    /* 17 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "receivingGifts",
@@ -249,28 +237,26 @@ var quizQuestions = [
           {
               type: "actsOfService",
               content: "We can pick up your friend on the way to the movie. "
-          },
-          
+          }
       ]
   },
   {
-      /* 18 Question */
-    question: "What do you prefer?",  
+    /* 18 Question */
+    question: "What do you prefer?",
     answers: [
           {
-              type: "E",
+              type: "qualityTime",
               content: "I always like doing stuff with you. "
           },
           {
               type: "wordsOfAffirmation",
               content: "You are so huggable!"
-          },
-          
+          }
       ]
   },
   {
-      /* 19 Question */
-    question: "What do you prefer?",  
+    /* 19 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "qualityTime",
@@ -279,13 +265,12 @@ var quizQuestions = [
           {
               type: "receivingGifts",
               content: "I can’t wait to give you your present!"
-          },
-          
+          }
       ]
   },
   {
-      /* 20 Question */
-    question: "What do you prefer?",  
+    /* 20 Question */
+    question: "What do you prefer?",
     answers: [
           {
               type: "actsOfService",
@@ -294,8 +279,7 @@ var quizQuestions = [
           {
               type: "physicalTouch",
               content: "Let’s spend the day doing whatever you want to do!"
-          },
-          
+          }
       ]
   }
 ];
