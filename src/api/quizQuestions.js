@@ -26,7 +26,6 @@ var quizQuestions = [
               type: "actsOfService",
               content: "I’ll help you with your project."
           },
-        
       ]
   },
   {
