@@ -9,10 +9,6 @@ var quizQuestions = [
           {
               type: "Nintendo",
               content: "Pokemon"
-          },
-          {
-              type: "Sony",
-              content: "Uncharted"
           }
       ]
   },
