@@ -93,7 +93,6 @@ class App extends Component {
   }
 
   getResults() {
-    debugger;
     const answersCount = this.state.answersCount;
     const answers = [
       {
