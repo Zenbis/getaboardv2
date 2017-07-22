@@ -37,7 +37,7 @@ var quizQuestions = [
           },
           {
               type: "wordsOfAffirmation",
-              content: "Give me a high-fi ve!"
+              content: "Give me a high-five!"
           }
       ]
   },
