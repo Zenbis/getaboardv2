@@ -92,6 +92,7 @@ class App extends Component {
   }
 
   getResults() {
+    debugger;
     const answersCount = this.state.answersCount;
     const answersCountKeys = Object.keys(answersCount);
     const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
