@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 import update from 'react-addons-update';
 import quizQuestions from './api/quizQuestions';
@@ -18,11 +19,31 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        wordsOfAffirmation: 0,
-        qualityTime: 0,
-        receivingGifts: 0,
-        actsOfService: 0,
-        physicalTouch: 0,
+        wordsOfAffirmation: {
+          count: 0,
+          name: "Words of Affirmation",
+          description: "Test"
+        },
+        qualityTime: {
+          count: 0,
+          name: "Quality Time",
+          description: "Test"
+        },
+        receivingGifts: {
+          count: 0,
+          name: "Receiving Gifts",
+          description: "Test"
+        },
+        actsOfService: {
+          count: 0,
+          name: "Acts Of Service",
+          description: "Test"
+        },
+        physicalTouch: {
+          count: 0,
+          name: "Physical Touch",
+          description: "Test"
+        },
       },
       result: ''
     };
