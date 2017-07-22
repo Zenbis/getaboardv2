@@ -1,9 +1,10 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 import update from 'react-addons-update';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import logo from './svg/logo.svg';
+import logo from './images/Getaboard_logo.jpg';
 import './App.css';
 
 class App extends Component {
@@ -94,16 +95,43 @@ class App extends Component {
   getResults() {
     debugger;
     const answersCount = this.state.answersCount;
-    const answersCountKeys = Object.keys(answersCount);
-    const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
-    const maxAnswerCount = Math.max.apply(null, answersCountValues);
+    const answers = [
+      {
+        name: "Words of Affirmation",
+        description: "Test",
+        count: answersCount.wordsOfAffirmation
+      },
+      {
+        name: "Quality Time",
+        description: "Test",
+        count: answersCount.qualityTime
+      },
+      {
+        name: "Receiving Gifts",
+        description: "Test",
+        count: answersCount.receivingGifts
+      },
+      {
+        name: "Acts Of Service",
+        description: "Test",
+        count: answersCount.actsOfService
+      },
+      {
+        name: "Physical Touch",
+        description: "Test",
+        count: answersCount.physicalTouch
+      }
+    ]
+    const sortedAnswers = _.sortBy(answers, function(el) {
+      return el.count;
+    }).reverse();
 
-    return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
+    let topThree = _.take(sortedAnswers, 3);
+    return topThree;
   }
-
   setResults(result) {
-    if (result.length === 1) {
-      this.setState({ result: result[0] });
+    if (result.length) {
+      this.setState({ result: result });
     } else {
       this.setState({ result: 'Undetermined' });
     }
@@ -133,7 +161,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2></h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

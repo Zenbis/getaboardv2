@@ -14,7 +14,7 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        Your love language is <strong>{props.quizResult}</strong>!
+        Your love language is <strong>{props.quizResult[0].name}</strong>!
       </div>
     </ReactCSSTransitionGroup>
   );
@@ -22,7 +22,7 @@ function Result(props) {
 }
 
 Result.propTypes = {
-  quizResult: React.PropTypes.string.isRequired,
+  quizResult: React.PropTypes.array.isRequired,
 };
 
 export default Result;
