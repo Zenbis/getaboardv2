@@ -1,0 +1,29 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "shared-node-browser": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "rules": {
+    "camelcase": 1,
+    "no-unmodified-loop-condition": 1,
+    "comma-dangle": ["error", "never"],
+    "max-len": 1,
+    "angular/controller-as-vm": 1,
+    "no-invalid-this": 1
+  },
+  "globals": {
+    "process": false
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended"  ]
+}
