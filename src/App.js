@@ -19,31 +19,11 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        wordsOfAffirmation: {
-          count: 0,
-          name: "Words of Affirmation",
-          description: "Test"
-        },
-        qualityTime: {
-          count: 0,
-          name: "Quality Time",
-          description: "Test"
-        },
-        receivingGifts: {
-          count: 0,
-          name: "Receiving Gifts",
-          description: "Test"
-        },
-        actsOfService: {
-          count: 0,
-          name: "Acts Of Service",
-          description: "Test"
-        },
-        physicalTouch: {
-          count: 0,
-          name: "Physical Touch",
-          description: "Test"
-        },
+        wordsOfAffirmation: 0,
+        qualityTime: 0,
+        receivingGifts: 0,
+        actsOfService: 0,
+        physicalTouch: 0,
       },
       result: ''
     };
@@ -114,15 +94,43 @@ class App extends Component {
 
   getResults() {
     const answersCount = this.state.answersCount;
-    const answersCountKeys = Object.keys(answersCount);
-    const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
-    const maxAnswerCount = Math.max.apply(null, answersCountValues);
+    const answers = [
+      {
+        name: "Words of Affirmation",
+        description: "Test",
+        count: answersCount.wordsOfAffirmation
+      },
+      {
+        name: "Quality Time",
+        description: "Test",
+        count: answersCount.qualityTime
+      },
+      {
+        name: "Receiving Gifts",
+        description: "Test",
+        count: answersCount.receivingGifts
+      },
+      {
+        name: "Acts Of Service",
+        description: "Test",
+        count: answersCount.actsOfService
+      },
+      {
+        name: "Physical Touch",
+        description: "Test",
+        count: answersCount.physicalTouch
+      }
+    ]
+    const sortedAnswers = _.sortBy(answers, function(el) {
+      return el.count;
+    }).reverse();
 
-    return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
+    let topThree = _.take(sortedAnswers, 3);
+    return topThree;
   }
   setResults(result) {
-    if (result.length === 1) {
-      this.setState({ result: result[0] });
+    if (result.length) {
+      this.setState({ result: result });
     } else {
       this.setState({ result: 'Undetermined' });
     }
