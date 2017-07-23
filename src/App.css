@@ -1,5 +1,7 @@
 .App-logo {
   height: 120px;
+  width: 300px;
+  height: 300px;
 }
 
 .App-header {
@@ -9,7 +11,9 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 @keyframes spin {
