@@ -97,7 +97,7 @@ class App extends Component {
     const answers = [
       {
         name: "Words of Affirmation",
-        description: "People whose love language is words of affi rmation like for others to use words to tell them that they are special and that they do a good job.",
+        description: "People whose love language is words of affirmation like for others to use words to tell them that they are special and that they do a good job.",
         count: answersCount.wordsOfAffirmation
       },
       {

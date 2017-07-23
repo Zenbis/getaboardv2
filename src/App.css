@@ -22,5 +22,5 @@
 }
 
 .background-photo {
-  background: white;
+  background: url('images/background.jpg') no-repeat;
 }
