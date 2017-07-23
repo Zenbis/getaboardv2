@@ -4,11 +4,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "Give me a hug!"
           },
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "You are terrific!"
           }
       ]
@@ -32,11 +32,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "Let’s go to a movie."
           },
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "Give me a high-five!"
           }
       ]
@@ -46,7 +46,7 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "You are so smart!"
           },
           {
@@ -64,7 +64,7 @@ var quizQuestions = [
               content: "Would you help me cook dinner?"
           },
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "I like going to fun places with you!"
           }
       ]
@@ -74,11 +74,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "Give me a kiss!"
           },
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "You are #1!"
           }
       ]
@@ -102,11 +102,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "physicalTouch",
-              content: "We can make something really cool."
+              type: "qualityTime",
+              content: "Let’s watch TV together!"
           },
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "Tag, you’re it!"
           }
       ]
@@ -116,8 +116,8 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "qualityTime",
-              content: "Tag, you’re it!"
+              type: "wordsOfAffirmation",
+              content: "You did a great job!"
           },
           {
               type: "receivingGifts",
@@ -135,7 +135,7 @@ var quizQuestions = [
               content: "You can invite your friends."
           },
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "Let’s go to your favorite restaurant."
           }
       ]
@@ -145,11 +145,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "I’m going to give you a big hug!"
           },
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "You are an awesome kid!"
           }
       ]
@@ -173,11 +173,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "You are fun to hang out with!"
           },
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "I’ll race you!"
           }
       ]
@@ -187,7 +187,7 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "Wow! You did it!"
           },
           {
@@ -206,7 +206,7 @@ var quizQuestions = [
               content: "I cleaned up your room for you."
           },
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "Let’s play a game together"
           }
 
@@ -217,11 +217,11 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "Would you like for me to scratch your back?"
           },
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "You can do it! Don’t give up!"
           }
       ]
@@ -249,7 +249,7 @@ var quizQuestions = [
               content: "I always like doing stuff with you. "
           },
           {
-              type: "wordsOfAffirmation",
+              type: "physicalTouch",
               content: "You are so huggable!"
           }
       ]
@@ -259,7 +259,7 @@ var quizQuestions = [
     question: "Which do you prefer, if someone says...",
     answers: [
           {
-              type: "qualityTime",
+              type: "wordsOfAffirmation",
               content: "How did you know how to do that? You are brilliant!"
           },
           {
@@ -277,7 +277,7 @@ var quizQuestions = [
               content: "Don’t worry! I’ll pick you up on time!"
           },
           {
-              type: "physicalTouch",
+              type: "qualityTime",
               content: "Let’s spend the day doing whatever you want to do!"
           }
       ]
