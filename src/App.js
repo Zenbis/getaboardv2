@@ -97,27 +97,27 @@ class App extends Component {
     const answers = [
       {
         name: "Words of Affirmation",
-        description: "Test",
+        description: "People whose love language is words of affi rmation like for others to use words to tell them that they are special and that they do a good job.",
         count: answersCount.wordsOfAffirmation
       },
       {
         name: "Quality Time",
-        description: "Test",
+        description: "People with the love language of quality time like it when others do things with them like play a game, watch television, or go to a ballgame.",
         count: answersCount.qualityTime
       },
       {
         name: "Receiving Gifts",
-        description: "Test",
+        description: "People with the love language of gifts feel good when someone gives them a special present or surprise.",
         count: answersCount.receivingGifts
       },
       {
         name: "Acts Of Service",
-        description: "Test",
+        description: "A person whose love language is acts of service likes it when others do nice things for them such as helping with chores, helping with school projects, or driving them places.",
         count: answersCount.actsOfService
       },
       {
         name: "Physical Touch",
-        description: "Test",
+        description: "People whose love language is physical touch like to receive hugs, kisses, and high-fives.",
         count: answersCount.physicalTouch
       }
     ]
