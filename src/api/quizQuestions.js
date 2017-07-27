@@ -127,7 +127,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 10 Question */
+    /* 10 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -141,7 +141,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 11 Question */
+     11 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -155,7 +155,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 12 Question */
+     12 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -169,7 +169,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 13 Question */
+     13 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -183,7 +183,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 14 Question */
+     14 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -198,7 +198,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 15 Question */
+     15 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -213,7 +213,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 16 Question */
+     16 Question
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -227,7 +227,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 17 Question */
+     17 Question
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -241,7 +241,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 18 Question */
+     18 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -255,7 +255,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 19 Question */
+     19 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -269,7 +269,7 @@ var quizQuestions = [
       ]
   },
   {
-    /* 20 Question */
+     20 Question 
     question: "Which do you prefer, if someone says...",
     answers: [
           {
@@ -281,6 +281,7 @@ var quizQuestions = [
               content: "Let’s spend the day doing whatever you want to do!"
           }
       ]
+      */
   }
 ];
 
